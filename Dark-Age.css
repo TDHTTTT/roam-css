@@ -25,8 +25,8 @@
     --bullets: #394b59;                 /* bullet color */
     --closed-bullets: #FFFFFF7C;        /* closed bullet color */
     --references: #A3B47D;              /* reference underline color */
-    --reference-underline: 0px;			  /* underline beneath reference. 0px = no underline */
-    --reference-border: 0px;      		  /* border around reference number indicator. 0px = no border */
+    --reference-underline: 0.5px;			  /* underline beneath reference. 0px = no underline */
+    --reference-border: 1px;      		  /* border around reference number indicator. 0px = no border */
     --block-reference-text: #A3B47D;    /* block reference color */
     --namespaces: #1CD247;              /* Namespace/color (win: ctrl+c ctrl+L) or (mac: cmd+c cmd+L) */
     --all-pages-mentions: #F79A18;      /* mentions pill on ALl Pages */
@@ -48,7 +48,7 @@
     --dropdown-menu-text: #FFFFFFB2;       /* Text color in dropdown menus */
     --dropdown-newpage: #1AD546;
     /* SEARCH BAR */
-    --search-bar-background: #26272a;
+    --search-bar-background: #26273a;
     --search-bar-text: #FFFFFF;
     /* KANBAN CARD COLORS */
     --kanban-main-background: #2b2a2a;
