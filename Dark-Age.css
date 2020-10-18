@@ -3,14 +3,14 @@
     --global-font: 'Inter', sans-serif;   /* Global font (will granulate soon) */
     --secondary-font: "Courier", monospaced;
     /* GLOBAL WIDTH FOR BLOCKS */
-    --reduce-padding-right: 568px;        /* DEFAULT 568px;  Increase these two padding values to increase */
+    --reduce-padding-right: 800px;        /* DEFAULT 568px;  Increase these two padding values to increase */
     --reduce-padding-left: 1032px;        /* DEFAULT 1032px; the global width of your blocks on the page */
   	/* TEXT COLORS */
-    --page-links: #D5A979;              /* [[Page Link]] */
+    --page-links: #567D46;              /* [[Page Link]] */
     --attributes-color: #CEA2A1;        /* Attribute:: */
     --external-links: #53A6C8;          /* https://www.google.com */
     --links-hover: #EE8443;             /* hover color of all links */
-    --hashtags: #FFFFFF84;              /* #hashtag #[[hash tags]] */
+    --hashtags: pink;              /* #hashtag #[[hash tags]] */
     --body-text: #FFFFFFB2;             /* general body text */
     --italics-color: #FFFFFFB2;         /* __italicized text__ */
     --bold-color: #FFFFFFB2;            /* **bolded text** */
@@ -20,13 +20,13 @@
     --sidebar-background: #1E1E1E;      /* sidebar background */
     --sidebar-text: #FFFFFFB2;          /* sidebar text  */
     --page-heading: #FFFFFFB2;          /* Page Title (i.e. roam/css) */
-    --daily-heading: #FFFFFFB2;         /* Daily Notes date heading */
+    --daily-heading: #7CAA48;         /* Daily Notes date heading */
     --headings: #FFFFFFB2;              /* h1, h2, h3 */
     --bullets: #394b59;                 /* bullet color */
     --closed-bullets: #FFFFFF7C;        /* closed bullet color */
     --references: #A3B47D;              /* reference underline color */
     --reference-underline: 0.5px;			  /* underline beneath reference. 0px = no underline */
-    --reference-border: 1px;      		  /* border around reference number indicator. 0px = no border */
+    --reference-border: 0px;      		  /* border around reference number indicator. 0px = no border */
     --block-reference-text: #A3B47D;    /* block reference color */
     --namespaces: #1CD247;              /* Namespace/color (win: ctrl+c ctrl+L) or (mac: cmd+c cmd+L) */
     --all-pages-mentions: #F79A18;      /* mentions pill on ALl Pages */
