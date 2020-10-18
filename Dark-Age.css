@@ -676,8 +676,8 @@ button[style*="padding: 4px 8px;"] {
 .bp3-button.bp3-minimal.bp3-small.block-ref-count-button {
     min-height: 18px !important;
     min-width: 18px !important;
-    padding: 0 5px 0px 4px !important;
-    margin-left: 50% !important;
+    padding: 0 5px 0px 0px !important;
+    margin-left: 10% !important;
     border: var(--reference-border) var(--block-reference-text) solid !important;
     color: var(--block-reference-text) !important;
     text-align: center;
