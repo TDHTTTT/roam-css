@@ -715,6 +715,8 @@ div[style*="position: absolute; z-index: 1000; top: 0px; right: 0px; opacity: 0.
 /*                                */
 /*////////////////////////////////*/
 
+
+/*
 .rm-embed-container:hover > .rm-embed-edit {
     right: 30px;
 }
@@ -727,6 +729,7 @@ div[style*="position: absolute; z-index: 1000; top: 0px; right: 0px; opacity: 0.
     margin-right: 5px;
     z-index: 1000;
 }
+*/
 
 /*/////////////////////////////*/
 /*                             */
