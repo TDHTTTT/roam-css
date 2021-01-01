@@ -298,9 +298,9 @@ h4.level1 a:hover, h4.level2 a:hover, h4.level3 a:hover, h4.level4 a:hover {
 }
 
 /* Attribute links */
-strong[tabindex="-1"] {
-    color: var(--attributes-color) !important;
-  }
+.rm-attr-ref {
+  	color: var(--attributes-color) !important;
+}
 
 /* ToDos color + Z-index Fix */
 .check-container input:checked ~ .checkmark {
@@ -364,7 +364,7 @@ strong {
 
 /* Highlights */
 
-.roam-highlight {
+.rm-highlight {
     color: var(--highlight-text-color);
     background-color: var(--highlighter);
 }
@@ -1189,6 +1189,13 @@ div::-webkit-scrollbar-track {
     margin-left: 0px;
 }
 
+.rm-query .rm-reference-item {
+    background-color: transparent;
+    margin: 0px 0px;
+    padding-bottom: 0px;
+    border-bottom: 0px solid var(--references);
+}
+
 /* Minimal Queries */
 [data-tag="minimal"], [data-tag="minimal"] + .rm-query .rm-title-arrow-wrapper, [data-tag="minimal"] + .rm-query .zoom-mentions-view{
 display:none!important;
@@ -1201,4 +1208,11 @@ display:none!important;
     padding-left: 0px;
 	margin-left: -40px;
   
+}
+
+/* block quotes */
+.rm-bq {
+    background-color: transparent;
+    margin: 0px 0px;
+    padding-bottom: 0px;
 }
