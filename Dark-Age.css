@@ -1204,11 +1204,14 @@ display:none!important;
  content: " #minimal"
 }
 
+/*
+ * Roam updated block indentation hiding
 .rm-embed-container {
     padding-left: 0px;
-	margin-left: -40px;
+    margin-left: -40px;
   
 }
+*/
 
 /* block quotes */
 .rm-bq {
