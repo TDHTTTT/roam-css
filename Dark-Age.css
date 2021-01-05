@@ -803,6 +803,7 @@ span[data-link-title="TODO"] .rm-page-ref {
 /* NEW */
 
 /* Pro / Con Option tag coloring */
+/*
 span[data-tag="pro"], span[data-tag="p"] {
     color: #00ee6b !important;
 }
@@ -851,6 +852,7 @@ select option {
     background: rgba(0,0,0,0.7) !important;
     color: white;
 }
+*/
 
 /* Word Count */
 .bp3-button:not([class*="bp3-intent-"]) {
